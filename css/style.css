@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header */
+	/* Make the link bg change color when hovering over it */
+.mdl-navigation .mdl-navigation__link:hover {
+	background-color: #D32F2F;
+}
+
+	/* Change bg color of current page link in header */
+.mdl-layout__header .current {
+	background-color: #D32F2F;
+}
+
+	/* Change bg color of current page link in drawer */
+.mdl-layout__drawer .current {
+	background-color: #e0e0e0;
+}
+
+/* Footer */
+	/* Social button size */
+.social-btn {
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+	/* Make the footer stay at bottom of the page when not enough content */
+.mdl-layout__content {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}

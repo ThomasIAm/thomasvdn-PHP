@@ -1,0 +1,31 @@
+/* CSS Document */
+
+/* Home */
+	/* Make the image fit on all screens */
+.article-image {
+	width: 100%;
+	height: auto;
+	border-radius: 2%;
+}
+
+	/* Center text containers and change overall width */
+.supporting-text {
+	max-width: 700px;
+	margin: auto;
+}
+
+	/* Get the p on the same line as the h3 */
+.about {
+	padding-left: 10px;
+}
+
+	/* Center page content and change overall width */
+.max-width {
+	max-width: 900px;
+	margin: auto;
+}
+
+.small-width {
+	max-width: 700px;
+	margin: auto;
+}

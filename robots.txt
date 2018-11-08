@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /hotlink-ok/
+Disallow: /img/
+Disallow: /js/
+Disallow: /rapport/
+Disallow: /ssl/
+Disallow: /templates/

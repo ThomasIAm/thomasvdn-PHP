@@ -1,0 +1,23 @@
+/* CSS Document */
+
+/* Rapport */
+	/* Change how the dialog looks */
+.mdl-dialog {
+	min-width: 280px;
+	width: 75%;
+	height: 75%;
+	overflow-y: scroll;
+}
+
+	/* Change the size of the image in the dialog */
+#opdr {
+	max-width: 25%;
+	max-height: 25%;
+}
+
+	/* Change the font size of certain p elements */
+.klein {
+	font-size: x-small;
+}
+
+
