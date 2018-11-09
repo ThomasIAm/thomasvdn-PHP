@@ -1,7 +1,7 @@
+<!--sse-->
 <!-- find root -->
 <?php $root = $_SERVER["DOCUMENT_ROOT"] ?>
 <!doctype html>
-<!--sse-->
 <html>
 	<head>
 		<!-- include head information -->
