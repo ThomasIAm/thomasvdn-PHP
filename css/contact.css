@@ -1,34 +1,37 @@
 /* CSS Document */
 
 /* Contact */
+.mdl-grid {
+	max-width: 1010px;
+}
+
 	/* Card size */
-.contact.mdl-card {
+.mdl-card {
+	width: 320px;
 	height: 320px;
 	margin: auto;
 }
 
-	/* FB card properties */
-.contact > .fb_big {
+	/* GitHub card properties */
+.github_big {
 	color: #fff;
-	background-image: url('/img/fb_big.png');
+	background-image: url('/img/github_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
-	background-color: #3B5999;
+	background-color: #000;
 	background-position: bottom right;
 }
 
 	/* Insta card properties */
-.contact > .insta_big {
+.insta_big {
 	color: #fff;
-	background-image: url('/img/insta_big.png');
-	background-repeat: no-repeat;
-	background-size: 60%;
-	background-color: #000000;
-	background-position: bottom right;
+	background: url('/img/insta_big.png') no-repeat bottom right, #e1306c;
+	background: url('/img/insta_big.png') no-repeat bottom right, linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	background-size: 60%, auto;
 }
 
 	/* LI card properties */
-.contact > .li_big {
+.li_big {
 	color: #fff;
 	background-image: url('/img/li_big.png');
 	background-repeat: no-repeat;
@@ -38,7 +41,7 @@
 }
 
 /* Skype card properties */
-.contact > .skype_big {
+.skype_big {
 	color: #fff;
 	background-image: url('/img/skype_big.png');
 	background-repeat: no-repeat;
@@ -48,7 +51,7 @@
 }
 
 /* Steam card properties */
-.contact > .steam_big {
+.steam_big {
 	color: #fff;
 	background-image: url('/img/steam_big.png');
 	background-repeat: no-repeat;
@@ -58,7 +61,7 @@
 }
 
 /* Twitter card properties */
-.contact > .twitter_big {
+.twitter_big {
 	color: #fff;
 	background-image: url('/img/twitter_big.png');
 	background-repeat: no-repeat;

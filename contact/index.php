@@ -28,14 +28,14 @@
 			<main>
 				<div class="page-content">
 					<!-- content goes here -->
-					<div class="mdl-grid">
+					<div class="mdl-grid">						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
-								<div class="mdl-card__title mdl-card--expand fb_big">
-									<h2 class="mdl-card__title-text">Facebook</h2>
+							<div class="mdl-card mdl-shadow--2dp">
+								<div class="mdl-card__title mdl-card--expand github_big">
+									<h2 class="mdl-card__title-text">GitHub</h2>
 								</div>
 								<div class="mdl-card__actions mdl-card--border">
-									<a href="https://www.facebook.com/thomasikdus/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									<a href="https://github.com/thomasikdus" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 										GO
 									</a>
 								</div>
@@ -43,7 +43,7 @@
 						</div>
 						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
+							<div class="mdl-card mdl-shadow--2dp">
 								<div class="mdl-card__title mdl-card--expand insta_big">
 									<h2 class="mdl-card__title-text">Instagram</h2>
 								</div>
@@ -56,7 +56,7 @@
 						</div>
 						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
+							<div class="mdl-card mdl-shadow--2dp">
 								<div class="mdl-card__title mdl-card--expand li_big">
 									<h2 class="mdl-card__title-text">LinkedIn</h2>
 								</div>
@@ -69,7 +69,7 @@
 						</div>
 						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
+							<div class="mdl-card mdl-shadow--2dp">
 								<div class="mdl-card__title mdl-card--expand skype_big">
 									<h2 class="mdl-card__title-text">Skype</h2>
 								</div>
@@ -82,7 +82,7 @@
 						</div>
 						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
+							<div class="mdl-card mdl-shadow--2dp">
 								<div class="mdl-card__title mdl-card--expand steam_big">
 									<h2 class="mdl-card__title-text">Steam</h2>
 								</div>
@@ -95,7 +95,7 @@
 						</div>
 						
 						<div class="mdl-cell mdl-cell--4-col">
-							<div class="mdl-card mdl-shadow--2dp contact">
+							<div class="mdl-card mdl-shadow--2dp">
 								<div class="mdl-card__title mdl-card--expand twitter_big">
 									<h2 class="mdl-card__title-text">Twitter</h2>
 								</div>
