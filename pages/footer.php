@@ -4,18 +4,16 @@
 	<div class="mdl-mega-footer__middle-section">
 		<div class="mdl-mega-footer__drop-down-section">
 			<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-			<h1 class="mdl-mega-footer__heading">Home</h1>
+			<h1 class="mdl-mega-footer__heading"><a href="/">Home</a></h1>
 			<ul class="mdl-mega-footer__link-list">
-				<li><a href="/">Home</a></li>
 				<li><a href="/#over/">Over mij</a></li>
 			</ul>
 		</div>
 
 		<div class="mdl-mega-footer__drop-down-section">
 			<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-			<h1 class="mdl-mega-footer__heading">Tools</h1>
+			<h1 class="mdl-mega-footer__heading"><a href="/tools/">Tools</a></h1>
 			<ul class="mdl-mega-footer__link-list">
-				<li><a href="/tools/">Tools</a></li>
 				<li><a href="/tools/url-short/">URL shortener</a></li>
 				<li><a href="/tools/yt-popup/">YouTube Pop-Up</a></li>
 				<li><a href="/tools/servers/">Servers</a></li>
@@ -24,19 +22,18 @@
 
 		<div class="mdl-mega-footer__drop-down-section">
 			<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-			<h1 class="mdl-mega-footer__heading">Contact</h1>
+			<h1 class="mdl-mega-footer__heading"><a href="/contact/">Contact</a></h1>
 			<ul class="mdl-mega-footer__link-list">
-				<!-- TODO: !!!CHANGE THIS!!! -->
-				<li><a href="/contact/">Contact</a></li>
+				<li><a href="/contact/form.php">Contact Formulier</a></li>
 			</ul>
 		</div>
 
 		<div class="mdl-mega-footer__drop-down-section">
 			<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-			<h1 class="mdl-mega-footer__heading">Login</h1>
+			<h1 class="mdl-mega-footer__heading"><a href="/account/">Account</a></h1>
 			<ul class="mdl-mega-footer__link-list">
-				<li><a href="/login/">Login</a></li>
-				<li><a href="/register/">Register</a></li>
+				<li><a href="/account/login.php">Login</a></li>
+				<li><a href="/account/register.php">Register</a></li>
 			</ul>
 		</div>
 	</div>
