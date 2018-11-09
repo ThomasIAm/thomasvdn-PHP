@@ -48,32 +48,38 @@
 				<a href="/terms/">Terms &amp; Conditions</a>
 			</li>
 			<li>
+				<a href="https://github.com/thomasikdus">
+					<img class="social-btn" id="tt1" src="/img/footer/github.png" alt="GitHub">
+					<span for="tt1" class="mdl-tooltip">GitHub</span>
+				</a>
+			</li>
+			<li>
 				<a href="https://www.instagram.com/thomasikdus/">
-					<img class="social-btn" id="tt2" src="/img/insta.png" alt="Instagram">
+					<img class="social-btn" id="tt2" src="/img/footer/insta.png" alt="Instagram">
 					<span for="tt2" class="mdl-tooltip">Instagram</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://www.linkedin.com/in/thomasvandennieuwenhoff/">
-					<img class="social-btn" id="tt3" src="/img/linkedin.png" alt="LinkedIn">
+					<img class="social-btn" id="tt3" src="/img/footer/linkedin.png" alt="LinkedIn">
 					<span for="tt3" class="mdl-tooltip">LinkedIn</span>
 				</a>
 			</li>
 			<li>
 				<a href="skype:thomasikdus">
-					<img class="social-btn" id="tt4" src="/img/skype.png" alt="Skype">
+					<img class="social-btn" id="tt4" src="/img/footer/skype.png" alt="Skype">
 					<span for="tt4" class="mdl-tooltip">Skype</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://steamcommunity.com/id/thomasiam/">
-					<img class="social-btn" id="tt5" src="/img/steam.png" alt="Steam">
+					<img class="social-btn" id="tt5" src="/img/footer/steam.png" alt="Steam">
 					<span for="tt5" class="mdl-tooltip">Steam</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://twitter.com/thomasikdus/">
-					<img class="social-btn" id="tt6" src="/img/twitter.png" alt="Twitter">
+					<img class="social-btn" id="tt6" src="/img/footer/twitter.png" alt="Twitter">
 					<span for="tt6" class="mdl-tooltip">Twitter</span>
 				</a>
 			</li>
