@@ -1,60 +1,36 @@
+<!-- find root -->
+<?php $root = $_SERVER["DOCUMENT_ROOT"] ?>
 <!doctype html>
 <!--sse-->
-<html><head>
-		<meta charset="utf-8">
-		<!-- Make sure site displays correctly on mobile devices -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<head>
+		<!-- include head information -->
+		<?php
+		$desc = "";
+		$keyw = "";
+		$title = "TvdN - Rapport";
+		include($root."/pages/head.php");
+		?>
 		
-		<title>TvdN - Rapport</title>
-		
-		<!-- MDL resources -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.red-indigo.min.css">
-		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-		<!-- !!!CHANGE THIS!!! -->
-		<link rel="stylesheet" type="text/css" href="https://thomasvdn.nl/css/style.css">
-		<script src="https://thomasvdn.nl/js/rapport.js"></script>
-        <script src="https://thomasvdn.nl/js/dialog-polyfill.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://thomasvdn.nl/css/dialog-polyfill.css" />
-		<link rel="stylesheet" href="https://thomasvdn.nl/css/rapport.css">
+		<script src="/js/rapport.js"></script>
+        <script src="/js/dialog-polyfill.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/dialog-polyfill.css" />
+		<link rel="stylesheet" href="/css/rapport.css">
 	</head>
 
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-			<!-- BEGIN Header stuff -->
-			<header class="mdl-layout__header">
-				<div class="mdl-layout__header-row">
-					<!-- Header title -->
-					<span class="mdl-layout-title">TvdN</span>
-					<!-- Add spacer, to align navigation to the right -->
-					<div class="mdl-layout-spacer"></div>
-					<!-- Navigation. Hidden on small screens. -->
-					<nav class="mdl-navigation mdl-layout--large-screen-only">
-						<!-- Add class "current" to current page link -->
-						<a class="mdl-navigation__link" href="https://thomasvdn.nl/">Home</a>
-						<a class="mdl-navigation__link" href="https://thomasvdn.nl/tools/">Tools</a>
-						<a class="mdl-navigation__link" href="https://thomasvdn.nl/contact/">Contact</a>
-						<a class="mdl-navigation__link" href="https://thomasvdn.nl/login/">Login</a>
-					</nav>
-				</div>
-			</header>
-			<!-- This header is hidden away but viewable on all devices -->
-			<div class="mdl-layout__drawer">
-				<span class="mdl-layout-title">TvdN</span>
-				<nav class="mdl-navigation">
-					<!-- Add class "current" to current page link -->
-					<a class="mdl-navigation__link" href="https://thomasvdn.nl/">Home</a>
-					<a class="mdl-navigation__link" href="https://thomasvdn.nl/tools/">Tools</a>
-					<a class="mdl-navigation__link" href="https://thomasvdn.nl/contact/">Contact</a>
-					<a class="mdl-navigation__link" href="https://thomasvdn.nl/login/">Login</a>
-				</nav>
-			</div>
-			<!-- END Header stuff -->
+			<!-- BEGIN header -->
+			<?php
+			$currentPage = "";
+			include($root."/pages/header.php");
+			?>
+			<!-- END header -->
 			
-			<!-- BEGIN Page content -->
+			<!-- BEGIN content -->
 			<main>
 				<div class="page-content">
-					<!-- Webpage content goes here -->
+					<!-- content goes here -->
 					<div  class="mdl-grid">
 						<div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
 							<div class="mdl-card__title">
@@ -387,105 +363,11 @@
 					</div>
 				</div>
 			</main>
-			<!-- END Page content -->
+			<!-- END content -->
 			
-			<!-- BEGIN Footer stuff -->
-			<!-- Add spacer to push footer down when not enough content -->
-			<div class="mdl-layout-spacer"></div>
-			<footer class="mdl-mega-footer">
-				<div class="mdl-mega-footer__middle-section">
-			
-					<div class="mdl-mega-footer__drop-down-section">
-						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-						<h1 class="mdl-mega-footer__heading">Home</h1>
-						<ul class="mdl-mega-footer__link-list">
-							<li><a href="https://thomasvdn.nl/">Home</a></li>
-							<li><a href="https://thomasvdn.nl/#over/">Over mij</a></li>
-						</ul>
-					</div>
-			
-					<div class="mdl-mega-footer__drop-down-section">
-						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-						<h1 class="mdl-mega-footer__heading">Tools</h1>
-						<ul class="mdl-mega-footer__link-list">
-							<li><a href="https://thomasvdn.nl/tools/">Tools</a></li>
-							<li><a href="https://thomasvdn.nl/tools/url-short/">URL shortener</a></li>
-							<li><a href="https://thomasvdn.nl/tools/servers/">Servers</a></li>
-						</ul>
-					</div>
-			
-					<div class="mdl-mega-footer__drop-down-section">
-						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-						<h1 class="mdl-mega-footer__heading">Contact</h1>
-						<ul class="mdl-mega-footer__link-list">
-							<!-- !!!CHANGE THIS!!! -->
-							<li><a href="https://thomasvdn.nl/contact/">Contact</a></li>
-						</ul>
-					</div>
-			
-					<div class="mdl-mega-footer__drop-down-section">
-						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-						<h1 class="mdl-mega-footer__heading">Login</h1>
-						<ul class="mdl-mega-footer__link-list">
-							<li><a href="https://thomasvdn.nl/login/">Login</a></li>
-							<li><a href="https://thomasvdn.nl/register/">Register</a></li>
-						</ul>
-					</div>
-			
-				</div>
-			
-				<div class="mdl-mega-footer__bottom-section">
-					<div class="mdl-logo">TvdN</div>
-					<ul class="mdl-mega-footer__link-list">
-						<li>
-							<a href="https://thomasvdn.nl/terms/">Terms &amp; Conditions</a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/thomasikdus/">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt1" src="https://thomasvdn.nl/img/fb.png" alt="Facebook">
-								<span for="tt1" class="mdl-tooltip">Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/thomasikdus/">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt2" src="https://thomasvdn.nl/img/insta.png" alt="Instagram">
-								<span for="tt2" class="mdl-tooltip">Instagram</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/thomasvandennieuwenhoff/">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt3" src="https://thomasvdn.nl/img/linkedin.png" alt="LinkedIn">
-								<span for="tt3" class="mdl-tooltip">LinkedIn</span>
-							</a>
-						</li>
-						<li>
-							<a href="skype:thomasikdus">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt4" src="https://thomasvdn.nl/img/skype.png" alt="Skype">
-								<span for="tt4" class="mdl-tooltip">Skype</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://steamcommunity.com/id/thomasiam/">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt5" src="https://thomasvdn.nl/img/steam.png" alt="Steam">
-								<span for="tt5" class="mdl-tooltip">Steam</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/thomasikdus/">
-								<!-- !!!CHANGE THIS!!! -->
-								<img class="social-btn" id="tt6" src="https://thomasvdn.nl/img/twitter.png" alt="Twitter">
-								<span for="tt6" class="mdl-tooltip">Twitter</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</footer>
-			<!-- END Footer stuff -->
+			<!-- BEGIN Footer -->
+			<?php include($root."/pages/footer.php") ?>
+			<!-- END Footer -->
 		</div>
 	</body>
 </html>
