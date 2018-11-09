@@ -18,6 +18,12 @@
 }
 
 /* Footer */
+	/* Make footer heading links appear normal */
+.mdl-mega-footer__heading > a {
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
 	/* Social button size */
 .social-btn {
 	width: 20px;
