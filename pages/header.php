@@ -18,7 +18,7 @@ function navCurrent($navPage) {
 			<a class="mdl-navigation__link <?php navCurrent("home"); ?>" href="/">Home</a>
 			<a class="mdl-navigation__link <?php navCurrent("tools"); ?>" href="/tools/">Tools</a>
 			<a class="mdl-navigation__link <?php navCurrent("contact"); ?>" href="/contact/">Contact</a>
-			<a class="mdl-navigation__link <?php navCurrent("login"); ?>" href="/login/">Login</a>
+			<a class="mdl-navigation__link <?php navCurrent("account"); ?>" href="/account/">Account</a>
 		</nav>
 	</div>
 </header>
@@ -29,6 +29,6 @@ function navCurrent($navPage) {
 		<a class="mdl-navigation__link <?php navCurrent("home"); ?>" href="/">Home</a>
 		<a class="mdl-navigation__link <?php navCurrent("tools"); ?>" href="/tools/">Tools</a>
 		<a class="mdl-navigation__link <?php navCurrent("contact"); ?>" href="/contact/">Contact</a>
-		<a class="mdl-navigation__link <?php navCurrent("login"); ?>" href="/login/">Login</a>
+		<a class="mdl-navigation__link <?php navCurrent("account"); ?>" href="/account/">Account</a>
 	</nav>
 </div>
