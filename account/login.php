@@ -17,7 +17,7 @@
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			<!-- BEGIN header -->
 			<?php
-			$currentPage = "login";
+			$currentPage = "account";
 			include($root."/pages/header.php");
 			?>
 			<!-- END header -->
