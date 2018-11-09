@@ -10,7 +10,7 @@
 	/* FB card properties */
 .contact > .fb_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/fb_big.png');
+	background-image: url('/img/fb_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #3B5999;
@@ -20,7 +20,7 @@
 	/* Insta card properties */
 .contact > .insta_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/insta_big.png');
+	background-image: url('/img/insta_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #000000;
@@ -30,7 +30,7 @@
 	/* LI card properties */
 .contact > .li_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/li_big.png');
+	background-image: url('/img/li_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #007BB6;
@@ -40,7 +40,7 @@
 /* Skype card properties */
 .contact > .skype_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/skype_big.png');
+	background-image: url('/img/skype_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #00AFF2;
@@ -50,7 +50,7 @@
 /* Steam card properties */
 .contact > .steam_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/steam_big.png');
+	background-image: url('/img/steam_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #000000;
@@ -60,7 +60,7 @@
 /* Twitter card properties */
 .contact > .twitter_big {
 	color: #fff;
-	background-image: url('https://thomasvdn.nl/img/twitter_big.png');
+	background-image: url('/img/twitter_big.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-color: #39a0ce;
