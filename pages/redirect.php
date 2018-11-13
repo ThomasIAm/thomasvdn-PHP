@@ -1,5 +1,3 @@
 <?php
-$root = $_SERVER["DOCUMENT_ROOT"];
-include($root."/pages/head.php");
-exit();
+header("Location: https://thomasvdn.nl/");
 ?>
